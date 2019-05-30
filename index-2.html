@@ -18,152 +18,8 @@
     <link rel="stylesheet" href="skin.css">
     <link rel="icon" href="media/favicon.png">
     <style type="text/css">
-            .banner-bag {
-                background: linear-gradient(rgba(46,65,176,.8),rgba(46,65,176,.9)), url(group.jpg);
-                background-size: cover;
-                background-position: center;
-            }
-            .main-banner-bottom {
-                display:none;
-            }
-            .banner-cta {
-                background:#fe7601;
-                border:#fe7601;
-            }
-            @media all and (min-width:992px) {
-                .banner-top,
-                .save {
-                    display:none;
-                }
-                .form-header {
-                    padding-top:0 !Important;
-                }
-
-            }
-        @media all and (max-width:991px) {
-            .slider.glide.glide--ltr.glide--slider.glide--swipeable.fade-right {
-                display:none;
-            }
-            h1.text-lg.text-uppercase.text-black {
-                position: relative;
-                text-align: center;
-                width: 100%;
-                margin: 0 auto;
-                margin-bottom: 21px;
-                z-index: 999;
-            }
-            .banner-bag {
-                background: linear-gradient(rgba(46,65,176,.1),rgba(46,65,176,.9)), url(group.jpg);
-                background-size: top center;
-                background-position: center;
-            }
-            hr.space-lg {
-                height: 50px;
-            }
-            .sun-mobile {
-                display:none !important;
-            }
-            .space-mobile-tg {
-                padding-bottom:0 !important;
-            }
-            .title {
-                margin-bottom:0;
-            }
-            .save {
-                z-index: 1;
-                position: relative;
-                color: #fff;
-                font-size: 26px;
-                text-shadow: 2px 2px 5px rgba(0,0,0,0.68);
-            }
-            .banner-top {
-                position: absolute;
-                left: 0;
-                top: -60px;
-                max-width: 300px;
-                right: 0;
-                margin: 0 auto;
-            }
-            .banner-cta {
-    /*            background:#fe7601;
-                border:#fe7601"*/
-                background:#000 !important;
-                border:#000 !important;
-            }
-            footer > .container {
-                padding-top: 0px; 
-            }
-            .main-banner-bottom {
-                display:none;
-            }
-            section.section-image.section-home-alpins.light.banner-bag {
-                padding-bottom: 6em;
-            }
-        }
-        @media all and (max-width:767px) {
-            .slider.glide.glide--ltr.glide--slider.glide--swipeable.fade-right {
-                display:none;
-            }
-            section.section-image.section-home-alpins.light.banner-bag {
-                padding-bottom: 0px;
-            }
-            h1.text-lg.text-uppercase.text-black {
-                position: relative;
-                text-align: center;
-                width: 100%;
-                margin: 0 auto;
-                margin-bottom: 21px;
-                z-index: 999;
-            }
-            .banner-bag {
-                background: linear-gradient(rgba(46,65,176,.1),rgba(46,65,176,.9)), url(group.jpg);
-                background-size: contain;
-                background-position: top center;
-                background-repeat:no-repeat;
-            }
-            hr.space-lg {
-                height: 50px;
-            }
-            .sun-mobile {
-                display:none !important;
-            }
-            .space-mobile-tg {
-                padding-bottom:0 !important;
-            }
-            .title {
-                margin-bottom:0;
-            }
-            .main-banner-bottom {
-                display:block;
-            }
-            .save {
-                z-index: 1;
-                position: relative;
-                color: #fff;
-                font-size: 26px;
-                text-shadow: 2px 2px 5px rgba(0,0,0,0.68);
-            }
-            .banner-top {
-                position: absolute;
-                left: 0;
-                top: -60px;
-                max-width: 300px;
-                right: 0;
-                margin: 0 auto;
-            }
-            .banner-cta {
-    /*            background:#fe7601;
-                border:#fe7601"*/
-                background:#000 !important;
-                border:#000 !important;
-            }
-            footer > .container {
-                padding-top: 0px; 
-            }
-        }
-
-        .menu-btn:before {
-            color: #202960;
+        .slider.glide.glide--ltr.glide--slider.glide--swipeable.fade-right {
+            display: none !important;
         }
     </style>
 </head>
@@ -190,12 +46,12 @@
         </div>
     </nav>
     <main>
-        <section class="section-image section-home-alpins light banner-bag">
-            <div class="container space-mobile-tg">
+        <section class="section-image section-home-alpins light" style="background:linear-gradient(rgba(46,65,176,.9),rgba(46,65,176,.9)), url(group.jpg)">
+            <div class="container ">
                 <hr class="space-lg" />
-                <div class="row">
+                <div class="row bing-mobile-reverse">
                     <div class="col-lg-9">
-                        <img class="sun-mobile" src="sun-png.png" style="    position: absolute;
+                        <img src="sun-png.png" style="    position: absolute;
     opacity: .2;"/>
                         <div class="primo-blrb" style="
                             position: absolute;
@@ -203,7 +59,7 @@
     z-index: 9999;
     left: 260px;
     bottom: -63px;">
-                            <img class="sun-mobile" src="golden-sun-yellow-hi.webp"/>
+                            <img src="golden-sun-yellow-hi.webp"/>
                         </div>
                         <h1 class="text-lg text-uppercase text-black" style="text-shadow: 2px 2px 5px rgba(0,0,0,0.68);">Register<br/>For Camp<br/>Today</h1>
                         <ul class="slider" data-options="type:slider,perView:1,arrows:true,nav:true,autoplay:3500" data-anima="fade-right" data-time="2000">
@@ -243,10 +99,9 @@
 
                     <div class="col-lg-3" style="background: #ebf1f5;padding:0;margin:0;">
                     <div class="col-lg-12" style="background: #202960;margin-bottom:20px;" >
-                        <h2 class="form-header" style="position:relative;"><img class="banner-top" src="Yellow-Banner-PNG.png"/><div class="save">Save $50</div></h2>
-                        <h2 class="form-header sun-mobile" style="width: 100%;padding: 0;"><iframe src="http://free.timeanddate.com/countdown/i6s7vo56/n156/cf12/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cacfff/cpc000/pc202960/tcfff/fs100/szw320/szh135/tatDays%20'til%20Summer%20Camp.../tacfff/tptTime%20since%20Camp%20started/tpc000/matBe%20there/macfff/mpc000/iso2019-06-17T00:00:00" allowTransparency="true" frameborder="0" width="225" height="69"></iframe></h2>
+                        <h2 class="form-header">Join us for a<br />FREE Camp Trial Day!<br />Saturday, June 15</h2>
                     </div>
-                        <div style="padding:0 55px 40px;">
+                        <div style="padding:0 20px;">
                             <!-- Begin Mailchimp Signup Form -->
                             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
                             <div id="mc_embed_signup">
@@ -266,17 +121,16 @@
                                     <div class="response" id="mce-success-response" style="display:none"></div>
                                 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e6d97914e0910915eec76a365_7b93eff399" tabindex="-1" value=""></div>
-                                <div class="clear"><input class="btn btn-sm banner-cta" type="submit" value="Sign Up Today" name="subscribe" id="mc-embedded-subscribe" style="width:100%;"></div>
+                                <div class="clear"><input class="btn btn-sm" type="submit" value="Sign Up Today" name="subscribe" id="mc-embedded-subscribe" class="button" style="width:100%;background:#fe7601;border:#fe7601"></div>
                                 </div>
                             </form>
                             </div>
                         </div>
-                        <img class="main-banner-bottom" src="MAIN_PHOTO.jpg" alt="">
                     </div>
 
 
                 </div>
-                <hr class="space-sm sun-mobile" />
+                <hr class="space-sm" />
             </div>
         </section>
 
@@ -284,12 +138,12 @@
             <div class="container" style="padding-top:40px;">
                 <div class="title align-center align-left-md">
                     <h2>Our Mission </h2>
-                    <p class="sun-mobile">Looking for the BEST camp for your kids this summer?</p>
+                    <p>Looking for the BEST camp for your kids this summer?</p>
                 </div>
                 <div style="height:100px;"></div>
                 <div class="row">
                     <div class="col-lg-6 no-margin-md">
-                        <img class="sun-mobile" src="e463d1_7b1557389fda47f7a7af8068b8efcd9d.webp"/>
+                        <img src="e463d1_7b1557389fda47f7a7af8068b8efcd9d.webp"/>
                         <p>
                             At Camp Super Duper, your child’s development and entertainment is our main priority. Childhood is a special time in kids’ lives; a time to grow through exciting activities and learn from educational experiences. Camp Super Duper is dedicated to helping your child enjoy this wonderful age as well as helping them develop cognitively, emotionally and physically!
                         </p>
@@ -374,7 +228,7 @@
 <div class="row">
                     <div class="col-lg-6" style="background:#202960;padding: 39px;">
                         <div class="footer-reg" style="position:absolute;width:150px;top:-61px;right:12px;">
-                            <img class="sun-mobile" src="golden-sun-yellow-hi.webp"/>
+                            <img src="golden-sun-yellow-hi.webp"/>
                         </div>
                         <h2>Registration</h2>
                                                     <p>If you have any questions about enrollment, this form, or anything at all, please don't hesitate to contact us at (866) 309-7322.</p>
@@ -386,17 +240,17 @@
 <form action="https://campsuperduper.us14.list-manage.com/subscribe/post?u=e6d97914e0910915eec76a365&amp;id=7b93eff399" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 <div class="row">
-    <div class="col-lg-12" style="margin-top: 0px;">
+    <div class="col-lg-12">
         <div class="mc-field-group">
             <input type="text" value="" name="FNAME" class="input-text" id="mce-FNAME" style="width:100%;" placeholder="First Name">
         </div>
     </div>
-    <div class="col-lg-12" style="margin-top: 0px;">
+    <div class="col-lg-12">
         <div class="mc-field-group">
             <input type="text" value="" name="LNAME" class="input-text" id="mce-LNAME" style="width:100%;" placeholder="Last Name">
         </div>
     </div>
-    <div class="col-lg-12" style="margin-top: 0px;">
+    <div class="col-lg-12">
         <div class="mc-field-group">
             <input type="email" value="" name="EMAIL" class="required email input-text" id="mce-EMAIL" style="width:100%;" placeholder="Email">
         </div>

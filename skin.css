@@ -405,7 +405,7 @@ main > .section-google-map > .container {
 .section-home-alpins h1 {
     position: absolute;
     z-index: 2;
-    max-width: 600px;
+    max-width: 450px;
 }
 
 .section-home-alpins .slider {
@@ -579,8 +579,8 @@ hr.space {
 }
 
 .text-lg:not([data-to]) {
-    font-size: 65px !important;
-    line-height: 89px;
+    font-size: 41px !important;
+    line-height: 67px;
 }
 
 .text-sm {
@@ -666,7 +666,6 @@ body > nav:not(.menu-side):not(.menu-transparent) .mega-menu, body > nav:not(.me
 
 body > nav .menu-brand, .menu-icon-top .menu-brand {
     height: 95px;
-    padding: 15px 0;
 }
 
 .menu-cnt > ul > li a, .lan-menu a {
